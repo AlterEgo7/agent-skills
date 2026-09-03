@@ -33,9 +33,12 @@ description: Software coding principles for planning and performing code changes
 
 ## Verification
 
+- Keep planning, review, and verification proportional to the task's scope and risk. Require only checks that can materially affect the requested behavior.
 - Test real behavior. Mocks may isolate collaborators, but assertions must cover the subject's behavior; do not use mocks in end-to-end tests.
 - Do not delete or weaken failing tests; preserve meaningful coverage for changed behavior.
-- Run relevant validation and inspect all output. Do not ignore, suppress, or misreport failures; if one cannot be safely resolved within scope, stop and report it.
+- Run relevant validation and inspect its output. Do not ignore, suppress, or misreport failures.
+- Do not block or iterate on optional, redundant, unrelated, or pre-existing validation concerns; note them briefly and proceed. Investigate failures only when the change caused them or they undermine confidence in the requested outcome.
+- Stop once sufficient evidence shows that the requested behavior works. Do not pursue low-impact verification rabbit holes or additional checks that cannot change the conclusion.
 
 ## Debugging
 
