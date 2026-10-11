@@ -5,6 +5,7 @@ Reusable skills for software engineering agents that support the Agent Skills fo
 ## Included skills
 
 - **coding-principles** guides scoped implementation, clear code, behavioral verification, and root-cause debugging.
+- **commit-messages** guides VCS commit subjects when creating or rewording commits.
 - **technical-writing** guides concise, accurate engineering documentation and software-development communication.
 
 ## Install
@@ -15,7 +16,7 @@ List the available skills:
 npx skills add AlterEgo7/agent-skills --list
 ```
 
-Install both skills interactively:
+Install the skills interactively:
 
 ```bash
 npx skills add AlterEgo7/agent-skills
@@ -30,7 +31,7 @@ npx skills add AlterEgo7/agent-skills \
   --global
 ```
 
-Replace `technical-writing` with `coding-principles` to install the other skill.
+Replace `technical-writing` with `coding-principles` or `commit-messages` to install another skill.
 
 ## License
 
