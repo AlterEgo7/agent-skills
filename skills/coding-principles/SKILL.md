@@ -15,6 +15,7 @@ description: Software coding principles for planning and performing code changes
 ## Clarity
 
 - Name code for its current domain purpose, not its history, implementation mechanism, or unnecessary pattern jargon.
+- Prefer clear names for identifiers (variables, class, traits etc) over short names.
 - Import symbols and use their declared class, type, function, or value names without namespace prefixes whenever this is unambiguous. When names conflict, first prefer an import rename or alias in languages that support it; otherwise use the shortest namespace prefix that resolves the ambiguity. Use longer or fully qualified names only when neither option is available.
 
   For example, in Scala:
