@@ -36,6 +36,7 @@ Organize around the reader's task, not the order in which the author performed t
 - Define an unfamiliar term at first useful use. Introduce an abbreviation only when it recurs enough to reduce effort.
 - Keep pronoun references unmistakable. Replace a vague `this`, `that`, `it`, or `they` with the noun when a reader could hesitate.
 - Keep one main idea per sentence. Split nested clauses, alternatives, and sequences that make readers reread.
+- Prefer commas or separate sentences. Use semicolons only when essential for clarity, not as a replacement for commas.
 - Put conditions and goals before the actions they qualify: “If caching is enabled, restart the worker.”
 - Use present tense for general behavior, past tense for completed work, and future tense only for an actual future event.
 - Distinguish obligation from advice. Use an imperative or **must** for requirements, **recommend** for recommendations, **can** for options or ability, and **might** for possibility. Avoid an ambiguous **should**.
