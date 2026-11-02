@@ -30,7 +30,8 @@ Applies to git and jj (bookmark = branch, description = commit message).
 e.g. `audio-247-preserve-playlist-order`
 
 ## PRs
-- Title = commit subject.
+- With a ticket, use `<ticket>: <Short title>`, e.g. `CONTDISC-198: Add VOD topic support`.
+- Only when there is no ticket, use the commit subject as the PR title.
 - Description goes in the template's freeform section (usually `Summary`). Fill other template sections factually and delete irrelevant ones. No template: ticket link, then description.
 - Write for a human reviewer: brief, dense, only what they can't get faster from the diff or ticket. That means what the change does, non-obvious decisions and why, risks or one-way doors, the tricky part to scrutinise, merge or deploy notes.
 - Never: restate the ticket, list what wasn't done, narrate files or process, add filler, or include test boilerplate.
