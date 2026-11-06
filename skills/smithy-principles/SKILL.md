@@ -33,6 +33,8 @@ structure OrderLine {
 
 Be sceptical of generic shape names such as `Email`, `Status` or `Details`. A later shape with a different meaning will likely want the same name, and readers cannot tell which meaning a member uses. Prefer a name that says what sets the value apart, such as `VerifiableEmail` for an address together with its verification status. Keep a short name only when the model can give that word no other meaning.
 
+When you are unsure which name fits, ask the user to choose from your candidate names, with the trade-off of each, before you write the shape.
+
 ## Write validator messages about the problem
 
 A validator's `message` helps the person who sees it understand what is wrong with their model and how to fix it. Describe the problem in the model's terms, not how the validator discovered it, such as the selector or the traits it matched.
